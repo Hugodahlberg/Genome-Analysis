@@ -1,0 +1,5 @@
+#First run mummer with this command (standing in genome_analysis_project)
+mummer -mum -b -c reference/reference/OBMB01.fasta analysis/01_canu/assembly.contigs.fasta > analysis/03_mummer/mummer.mums
+
+#Then then mummerplot with this command (standing in 03_mummer)
+mummerplot -R ../../reference/reference/OBMB01.fasta -Q ../01_canu/assembly.contigs.fasta --png -p mummer mummer.mums
