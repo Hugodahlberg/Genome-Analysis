@@ -1,0 +1,2 @@
+#Running prokka with this command:
+prokka --outdir 04_prokka --prefix annotation 01_canu/assembly.contigs.fa
